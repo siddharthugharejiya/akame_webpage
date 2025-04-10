@@ -486,10 +486,10 @@ function Home() {
             {/* our expert */}
             <div className="2xl:h-screen xl:h-screen lg:h-auto md:h-auto sm:h-auto h-auto bg-[#f6f9f9] ">
                 <div className="left-image xl:h-[80vh] grid xl:grid-cols-2 justify-center items-center" >
-                    <div className=" w-full flex justify-end h-full" style={{ background: `url("./14.png") 60%`, backgroundPositionY: "top ", backgroundRepeat: "no-repeat" }} >
+                    <div className=" w-full flex justify-end h-full " style={{ background: `url("./14.png") 60%`, backgroundPositionY: "top ", backgroundRepeat: "no-repeat" }} >
                     </div>
-                    <div className="text-start overflow-hidden">
-                        <h1 className="text-4xl mb-5 md:mt-2 md:text-5xl sm:mt-2 sm:text-5xl " data-aos="fade-left"
+                    <div className="text-start overflow-hidden ">
+                        <h1 className="text-4xl mb-5 md:mt-10 md:text-5xl sm:mt-8 mt-10 sm:text-5xl " data-aos="fade-left"
                             data-aos-anchor-placement="left"
                             data-aos-delay="200"
                             data-aos-duration="800">Our Experts</h1>
@@ -508,11 +508,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="cart grid justify-center gap-10 flex-wrap xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 
-xl:m-22 lg:m-[100px_150px] md:m-12 sm:m-12 m-24 xl:-mt-24 xl:justify-center overflow-hidden ">
+                <div className="mt-9 cart grid justify-center gap-10 flex-wrap xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 
+xl:m-22 lg:m-[100px_150px] md:m-12 sm:m-12 xl:m-24 m-0 xl:-mt-24 xl:justify-center overflow-hidden ">
 
 
-                    <div className="cart xl:w-[18rem] sm:w-[20rem] border group relative rounded-2xl 
+                    <div className="cart xl:w-[18rem] w-full sm:w-[20rem] border group relative rounded-2xl 
   shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.2)] 
   hover:scale-[1.03] transform transition-all duration-500 ease-in-out"
                         data-aos="fade-up"
@@ -527,7 +527,7 @@ xl:m-22 lg:m-[100px_150px] md:m-12 sm:m-12 m-24 xl:-mt-24 xl:justify-center over
                             <p className="text-gray-500">Hairdresser</p>
                         </div>
 
-                        <div className="absolute top-0 w-[18rem] opacity-0 group-hover:opacity-100 h-full 
+                        <div className="absolute top-0 xl:w-[18rem] w-full opacity-0 group-hover:opacity-100 h-full 
     group-hover:bg-[rgba(255,255,255,0.8)] flex justify-center items-center gap-4 transition-all duration-500 ease-in-out rounded-2xl">
                             {/* Social Icons */}
                             <i className="fa-brands fa-facebook-f bg-[rgba(24,119,242,0.2)] hover:bg-[rgba(24,119,242,1)] 
@@ -544,7 +544,7 @@ xl:m-22 lg:m-[100px_150px] md:m-12 sm:m-12 m-24 xl:-mt-24 xl:justify-center over
                         </div>
                     </div>
 
-                    {/* Repeat Card with slight changes */}
+
                     {/* === CARD 2 === */}
                     <div className="cart xl:w-[18rem] sm:w-[20rem] border group relative rounded-2xl 
   shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.2)] 
@@ -561,7 +561,7 @@ xl:m-22 lg:m-[100px_150px] md:m-12 sm:m-12 m-24 xl:-mt-24 xl:justify-center over
                             <p className="text-gray-500">Stylist</p>
                         </div>
 
-                        <div className="absolute top-0 w-[18rem] opacity-0 group-hover:opacity-100 h-full 
+                        <div className="absolute top-0 xl:w-[18rem] w-full opacity-0 group-hover:opacity-100 h-full 
     group-hover:bg-[rgba(255,255,255,0.8)] flex justify-center items-center gap-4 transition-all duration-500 ease-in-out rounded-2xl">
                             {/* Social Icons same as above */}
                             <i className="fa-brands fa-facebook-f bg-[rgba(24,119,242,0.2)] hover:bg-[rgba(24,119,242,1)] 
@@ -596,7 +596,7 @@ xl:m-22 lg:m-[100px_150px] md:m-12 sm:m-12 m-24 xl:-mt-24 xl:justify-center over
                             <p className="text-gray-500">Hairdresser</p>
                         </div>
 
-                        <div className="absolute top-0 w-[18rem] opacity-0 group-hover:opacity-100 h-full 
+                        <div className="absolute top-0 xl:w-[18rem] w-full opacity-0 group-hover:opacity-100 h-full 
     group-hover:bg-[rgba(255,255,255,0.8)] flex justify-center items-center gap-4 transition-all duration-500 ease-in-out rounded-2xl">
                             {/* Social Icons same as above */}
                             <i className="fa-brands fa-facebook-f bg-[rgba(24,119,242,0.2)] hover:bg-[rgba(24,119,242,1)] text-gray-800 hover:text-white p-4 rounded-full w-12 h-12 flex items-center justify-center transition duration-700"></i>
@@ -622,7 +622,7 @@ xl:m-22 lg:m-[100px_150px] md:m-12 sm:m-12 m-24 xl:-mt-24 xl:justify-center over
                             <p className="text-gray-500">Hairdresser</p>
                         </div>
 
-                        <div className="absolute top-0 w-[18rem] opacity-0 group-hover:opacity-100 h-full 
+                        <div className="absolute top-0 xl:w-[18rem] w-full opacity-0 group-hover:opacity-100 h-full 
     group-hover:bg-[rgba(255,255,255,0.8)] flex justify-center items-center gap-4 transition-all duration-500 ease-in-out rounded-2xl">
                             {/* Social Icons same as above */}
                             <i className="fa-brands fa-facebook-f bg-[rgba(24,119,242,0.2)] hover:bg-[rgba(24,119,242,1)] text-gray-800 hover:text-white p-4 rounded-full w-12 h-12 flex items-center justify-center transition duration-700"></i>
