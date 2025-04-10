@@ -56,7 +56,7 @@ function Home() {
         <>
 
 
-            <div className="w-full overflow-hidden">
+            <div className="w-full overflow-hidden ">
                 <Swiper
                     modules={[Autoplay]}
                     autoplay={{ delay: 5000, disableOnInteraction: false }}
@@ -66,8 +66,8 @@ function Home() {
                 >
                     <SwiperSlide>
                         <div
-                            className="w-full h-[80vh]  xs:h-auto bg-[url('/16.jpg')] bg-center bg-cover bg-no-repeat 
-                   md:bg-right-top sm:bg-top bg-scroll grid justify-center items-center"
+                            className="w-full h-[80vh]  xs:h-auto bg-[url('/16.jpg')] xl:bg-center bg-right bg-cover bg-no-repeat 
+                          md:bg-right-top sm:bg-right  bg-scroll grid justify-center items-center"
                         >
                             <div
                                 className="lg:px-56 md:px-28 sm:px-10 px-5 h-full sm:h-auto flex flex-col justify-center 
@@ -115,61 +115,8 @@ function Home() {
                                 </div>
                             </div>
                         </div >
-                    </SwiperSlide > 
+                    </SwiperSlide >
 
-
-                    <SwiperSlide>
-                        <div
-                            className="w-full h-screen sm:h-screen md:h-[80vh] bg-[url('/16.jpg')] bg-center bg-cover bg-no-repeat 
-               bg-scroll grid justify-center items-center"
-                        >
-                            <div
-                                className="lg:px-56 md:px-28 sm:px-10 px-5 h-full flex flex-col justify-center 
-                 py-10 sm:py-6"
-                            >
-                                {/* Default and md (Medium) Screens */}
-                                <div
-                                    className="text-2xl md:text-5xl text-center sm:text-left 
-                   animate__animated animate__fadeInUp hidden sm:block"
-                                    data-aos="zoom-out-up"
-                                    style={{ "--animate-duration": "1s", animationDelay: "100ms" }}
-                                >
-                                    We Care About <br className="hidden sm:block" />
-                                    Your Hair
-                                </div>
-
-                                {/* Small and Default Screens */}
-                                <div
-                                    className="text-xl sm:hidden text-center animate__animated animate__fadeInUp"
-                                    data-aos="zoom-out-up"
-                                    style={{ "--animate-duration": "1s", animationDelay: "100ms" }}
-                                >
-                                    We Care About Your Hair
-                                </div>
-
-                                <p
-                                    className="lg:w-2/5 md:w-4/5 sm:w-3/4 w-full text-lg sm:text-xl xs:text-base 
-                   animate__animated animate__fadeInUp mt-6 xs:mt-4"
-                                    style={{ "--animate-duration": "1s", animationDelay: "500ms" }}
-                                >
-                                    “Discover your own style. Don't try to repeat what has already been written -
-                                    have the courage to do your own thing and don't be afraid to do something different.”
-                                </p>
-
-                                <div
-                                    className="flex justify-center sm:justify-start animate__animated animate__fadeInUp mt-8 xs:mt-6"
-                                    style={{ "--animate-duration": "1s", animationDelay: "1000ms" }}
-                                >
-                                    <button
-                                        className="border border-black hover:bg-[#bca858] hover:text-white 
-                     hover:border-[#bca858] duration-500 ease-in px-8 py-2 rounded-xl"
-                                    >
-                                        About Us
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
 
                 </Swiper >
             </div >
@@ -443,7 +390,7 @@ function Home() {
                                                 alt="Portfolio 1"
                                                 className="w-full sm:w-[90%] md:w-[80%] lg:w-[70%] h-80 rounded-lg shadow-lg transition-transform duration-300 group-hover:blur-[2px]"
                                             />
-                                            <div className="w-full absolute inset-0 bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
+                                            <div className="lg:w-[70%] w-full  h-[100%] absolute  bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
                                                 <span className="text-2xl text-orange-300">Hairstyle</span>
                                                 <p className="text-white">Consectetur adipisicing elit sed doe</p>
                                                 <i className="fa-solid fa-magnifying-glass text-white mt-3"></i>
@@ -459,7 +406,7 @@ function Home() {
                                                 alt="Portfolio 3"
                                                 className="w-full sm:w-[90%] md:w-[80%] lg:w-[70%] h-80 rounded-lg shadow-lg transition-transform duration-300 group-hover:blur-[2px]"
                                             />
-                                            <div className="w-full absolute inset-0 bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
+                                            <div className="lg:w-[70%]  w-full h-[100%] absolute  bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
                                                 <span className="text-2xl text-orange-300">Hairstyle</span>
                                                 <p className="text-white">Consectetur adipisicing elit sed doe</p>
                                                 <i className="fa-solid fa-magnifying-glass text-white mt-3"></i>
@@ -478,7 +425,7 @@ function Home() {
                                             alt="Portfolio 5"
                                             className="w-full rounded-lg shadow-lg transition-transform duration-300 group-hover:blur-[2px]"
                                         />
-                                        <div className="absolute inset-0 bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
+                                        <div className="absolute lg:w-[100%]  w-full h-[100%] bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
                                             <span className="text-2xl text-orange-300">Hairstyle</span>
                                             <p className="text-white">Consectetur adipisicing elit sed doe</p>
                                             <i className="fa-solid fa-magnifying-glass text-white mt-3"></i>
@@ -496,7 +443,7 @@ function Home() {
                                                 alt="Portfolio 1"
                                                 className="w-full sm:w-[90%] md:w-[80%] lg:w-[70%] h-80 rounded-lg shadow-lg transition-transform duration-300 group-hover:blur-[2px]"
                                             />
-                                            <div className="w-full absolute inset-0 bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
+                                            <div className="lg:w-[70%]  w-full h-[100%] absolute bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
                                                 <span className="text-2xl text-orange-300">Hairstyle</span>
                                                 <p className="text-white">Consectetur adipisicing elit sed doe</p>
                                                 <i className="fa-solid fa-magnifying-glass text-white mt-3"></i>
@@ -512,7 +459,7 @@ function Home() {
                                                 alt="Portfolio 1"
                                                 className="w-full sm:w-[90%] md:w-[80%] lg:w-[70%] h-80 rounded-lg shadow-lg transition-transform duration-300 group-hover:blur-[2px]"
                                             />
-                                            <div className="w-full absolute inset-0 bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
+                                            <div className="lg:w-[70%]  w-full h-[100%] absolute  bg-[#0000008e] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center flex-col">
                                                 <span className="text-2xl text-orange-300">Hairstyle</span>
                                                 <p className="text-white">Consectetur adipisicing elit sed doe</p>
                                                 <i className="fa-solid fa-magnifying-glass text-white mt-3"></i>
@@ -564,7 +511,7 @@ function Home() {
                 <div className="cart grid justify-center gap-10 flex-wrap xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 
 xl:m-22 lg:m-[100px_150px] md:m-12 sm:m-12 m-24 xl:-mt-24 xl:justify-center overflow-hidden ">
 
-                  
+
                     <div className="cart xl:w-[18rem] sm:w-[20rem] border group relative rounded-2xl 
   shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.2)] 
   hover:scale-[1.03] transform transition-all duration-500 ease-in-out"

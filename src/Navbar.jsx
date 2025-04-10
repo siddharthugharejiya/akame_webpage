@@ -8,7 +8,7 @@ function Navbar() {
 
 
     return (
-        <div className="container m-auto mb-2">
+        <div className="container m-auto mb-3  ">
             <nav className="flex items-center w-full justify-around px-5 py-4 bg-white shadow-md">
 
                 <div className="logo">
@@ -48,10 +48,10 @@ function Navbar() {
 
                                     </MenuItem>
                                     <MenuItem>
-                                    <a href="#" className={`block px-4 py-2 "bg-gray-200"`}>
-                                                Support
-                                            </a>
-                                      
+                                        <a href="#" className={`block px-4 py-2 "bg-gray-200"`}>
+                                            Support
+                                        </a>
+
                                     </MenuItem>
                                 </MenuItems>
                             </Menu>
